@@ -1,0 +1,16 @@
+input[type="text"] {
+    color: rgb(255, 0, 255);
+}
+
+input[type="password"] {
+    color: red;
+}
+
+button[type="submit"] {
+    color: #8800ff;
+}
+
+button[type="reset"] {
+    color: #8800ff;
+}
+
