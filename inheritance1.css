@@ -1,0 +1,13 @@
+div {
+    background-color:rgb(231, 194, 252);
+}
+input{
+    background-color: inherit;
+    text-decoration:dotted underline;
+}
+button {
+    background-color: inherit;
+}
+/* form {
+    background-color:red;
+} */
