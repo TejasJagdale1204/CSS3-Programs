@@ -1,0 +1,11 @@
+div {
+    height: 400px;
+    width: 400px;
+    background-color: chartreuse;
+    border: 2px solid black;
+    margin: 10px;
+    display: inline-block;
+}
+#fourth {
+    display: none;
+}
