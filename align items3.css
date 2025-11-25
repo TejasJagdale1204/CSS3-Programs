@@ -1,20 +1,19 @@
-h1 {
-    text-align: center;
-}
-#container1 {
+.container {
+    width: 800px;
     height: 400px;
-    width: 50%;
-    background-color: azure;
-    margin: 10px auto;
-    border: 5px solid black;
-    display: flex;
-    flex-direction: row;
+    background-color: black;
+    display:grid;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 10px;
+    column-gap: 10px;
     align-items: center;
-} 
-#container1 div {
-    height: 70px;
-    width: 700px;
-    color: white;
+}
+.item {
+    width: 100px;
+    height: 50px;
+    background-color: greenyellow;
+    border: 2.5px solid rgb(255, 0, 0);
     text-align: center;
-    font-size: 2em;
+    font-size: 1.4em;
 }
