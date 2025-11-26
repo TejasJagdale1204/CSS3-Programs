@@ -1,0 +1,24 @@
+.container {
+    width: 800px;
+    height: 400px;
+    background-color: black;
+    display:grid;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.item {
+    width: 100px;
+    height: 50px;
+    background-color: greenyellow;
+    border: 2.5px solid rgb(255, 0, 0);
+    text-align: center;
+    font-size: 1.4em;
+}
+.one {
+    justify-self: end;
+}
+.five {
+    justify-self: center;
+}
