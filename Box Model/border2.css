@@ -1,0 +1,9 @@
+div {
+    border-style: solid;
+
+    border-left-color: red;
+    border-right-color:rgb(255, 149, 0);
+    border-top-style: dashed;
+    border-top-color: rgb(3, 116, 254);
+    border-bottom-width: 4px;
+}

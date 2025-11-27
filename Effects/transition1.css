@@ -1,0 +1,11 @@
+div {
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    transition: 3s;
+    margin: 70px;
+}
+div:hover {
+    background-color: black;
+    border-radius: 50%;
+}

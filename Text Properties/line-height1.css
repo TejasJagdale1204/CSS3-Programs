@@ -1,0 +1,9 @@
+h2 {
+    text-align: center;
+    border:solid;
+    text-decoration: red dotted underline;
+}
+
+p {
+    line-height: 2;
+}

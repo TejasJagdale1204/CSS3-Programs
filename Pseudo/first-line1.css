@@ -1,0 +1,6 @@
+p::first-line {
+    color: rgb(255, 119, 0);
+}
+p {
+    text-align: justify;
+}
