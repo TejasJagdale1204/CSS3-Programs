@@ -1,0 +1,20 @@
+h1 {
+    text-align: center;
+}
+#container1 {
+    height: 400px;
+    width: 50%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} 
+#container1 div {
+    height: 70px;
+    width: 700px;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
