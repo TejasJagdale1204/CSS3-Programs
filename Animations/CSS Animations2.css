@@ -1,0 +1,61 @@
+@keyframes CSS1 {
+    from {
+        width:200px;
+    }
+    to {
+        width: 700px;
+    }
+}
+@keyframes CSS2 {
+    from {
+        height:150px;
+    }
+    to {
+        height: 300px;
+    }
+}
+@keyframes CSS3 {
+    from {
+        font-family: Arial;
+    }
+    to {
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
+@keyframes CSS4 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.box1 {
+    height: 130px;
+    width: 400px;
+    background-color: pink;
+
+    animation: CSS1 3s ease-in-out 0s 3 alternate;
+}
+.box2 {
+    height: 130px;
+    width: 400px;
+    background-color: pink;
+
+    animation: CSS2 3s ease-in-out 0s 3 reverse;
+}
+.box3 {
+    height: 130px;
+    width: 400px;
+    background-color: pink;
+
+    animation: CSS3 3s ease-in-out 0s 3 normal;
+}
+.box4 {
+    height: 130px;
+    width: 400px;
+    background-color: pink;
+    margin-left: 500px;
+
+    animation: CSS4 3s ease-in-out 0s 3 alternate-reverse;
+}
