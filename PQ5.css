@@ -1,0 +1,29 @@
+h2 {
+    border: 2px dashed green;
+    text-align: center;
+}
+h2::first-letter {
+    color: red;
+}
+p {
+    background-color: pink;
+    border-style: dashed;
+    border-radius: 15px;
+
+    margin-left: 15px;
+    margin-right: 50%;
+    margin-bottom: 20px;
+
+    padding: 20px 30px 60px;
+
+    border-right-width: 4px;
+    border-right-color: red;
+
+    text-align: justify;
+}
+button {
+    border-radius: 20px;
+    padding: 20px 40px;
+    margin-left: 15px;
+    background-color: aquamarine;
+}
