@@ -2,16 +2,19 @@ body {
   font-family: Arial, sans-serif;
 }
 
+h2 {
+    text-align: center;
+}
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
   padding: 20px;
-  background-color:#f3e5f5;
+  background-color:#1e1e1e;
 }
 
 .grid-item {
-  background-color: #7b1fa2;
+  background-color: #ff0000;
   color: rgb(255, 255, 255);
   padding: 30px;
   font-size: 2em;
