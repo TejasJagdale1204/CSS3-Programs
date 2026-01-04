@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #1e1b4b, #020617);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-app {
+    display: flex;
+    width: 900px;
+    height: 520px;
+    background: #020617;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.5);
+}
+
+.sidebar {
+    width: 260px;
+    background: #020617;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    border-right: 1px solid #1f2937;
+}
+
+.sidebar h2 {
+    margin: 0 0 10px;
+    color: #a5b4fc;
+}
+
+.user {
+    padding: 12px;
+    border-radius: 12px;
+    color: #e5e7eb;
+    background: #0f172a;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.user:hover,
+.user.active {
+    background: #1e293b;
+}
+
+.chat-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    padding: 16px;
+    background: #0f172a;
+    color: #c7d2fe;
+    font-weight: bold;
+    border-bottom: 1px solid #1f2937;
+}
+
+.messages {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    overflow-y: auto;
+}
+
+.msg {
+    max-width: 60%;
+    padding: 12px 14px;
+    border-radius: 14px;
+    font-size: 14px;
+}
+
+.left {
+    align-self: flex-start;
+    background: #1f2937;
+    color: #e5e7eb;
+}
+
+.right {
+    align-self: flex-end;
+    background: #4f46e5;
+    color: white;
+}
+
+.input-box {
+    padding: 14px;
+    display: flex;
+    gap: 12px;
+    border-top: 1px solid #1f2937;
+}
+
+input {
+    flex: 1;
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background: #020617;
+    color: #e5e7eb;
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    background: #4f46e5;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
